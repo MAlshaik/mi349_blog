@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+}
+.navbar {
+    width: 100%;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4rem;
+}
+.post{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    border-radius: 2rem;
+    padding: 2rem;
+    background-color: #D3D3D3;
+}
+
+.image-cont{
+    border-radius: 1rem;
+    width: 200px;
+    margin-right: 10px;
+}
+
+.header{
+    display: flex;
+}
+
+.info{
+    align-items: right;
+}
+
+.header{
+    align-items: flex-end;
+}
+
+.info{
+    display: flex;
+}
+
+.col-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.row-cont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.newsletter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #333;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    background-color: #;
+    color: #333;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+}
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(200,200,200);
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+td, th {
+  border: 1px solid rgb(190,190,190);
+  padding: 10px 20px;
+}
+
+th {
+  background-color: rgb(235,235,235);
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(even) td {
+  background-color: rgb(250,250,250);
+}
+
+tr:nth-child(odd) td {
+  background-color: rgb(245,245,245);
+}
+
+.profile{
+    aspect-ratio: 1;
+    width: 100px;
+    border-radius: 50%;
+}
+
+
+.about-me{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 80%;
+    background-color: #ddd;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 2rem;
+}
